@@ -20,4 +20,8 @@ public class SampleService {
         return m_clsDao.selectAll();
     }
 
+    @Transactional
+    public M_ClsDto getClsDto(int clsId) {
+        return m_clsDao.selectClsById(clsId);
+    }
 }

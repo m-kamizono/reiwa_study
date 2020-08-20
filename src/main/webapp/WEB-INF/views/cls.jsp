@@ -19,12 +19,12 @@
    <tr>
     <td>ID</td>
     <td>:</td>
-    <td>${clsDetForm.clsId}</td>
+    <td>${clsForm.clsId}</td>
    </tr>
    <tr>
     <td>名前</td>
     <td>:</td>
-    <td>${clsDetForm.clsName}</td>
+    <td>${clsForm.clsName}</td>
    </tr>
   </table>
  </section>
